@@ -38,7 +38,7 @@ All steps are in [notebooks/insurance_regression.ipynb](notebooks/insurance_regr
 
 Being a smoker adds $23,847 to the expected charges in the linear model, while age is the numerical variable most correlated with charges (0.298). The residuals of both linear models are skewed and show separate bands, so the normality and homoscedasticity assumptions do not fully hold, even after the log transformation.
 
-![Residuals of the log model](Images/residuals_log.png)
+![Residuals of the log model](Images/residuals_log_vs_fitted.png)
 
 ## How to run
 ```bash
